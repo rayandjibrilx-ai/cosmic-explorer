@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COSMIC EXPLORER | Beyond Infinity</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="stars"></div>
+
+  <nav class="navbar">
+    <a class="logo" href="#">COSMIC<span>EXPLORER</span></a>
+    <div class="nav-links">
+      <a href="#universe">Universe</a>
+      <a href="#planets">Planets</a>
+      <a href="#mission">Mission</a>
+    </div>
+    <button id="sound-btn" class="sound-btn">◉ SOUND OFF</button>
+  </nav>
+
+  <main>
+    <section class="hero" id="universe">
+      <div class="hero-content">
+        <p class="eyebrow">✦ YOUR UNIVERSE AWAITS ✦</p>
+        <h1>BEYOND<br><span>INFINITY.</span></h1>
+        <p class="intro">
+          Discover mysterious worlds, explore distant planets,
+          and journey through the wonders of our universe.
+        </p>
+        <a class="explore-btn" href="#planets">EXPLORE THE COSMOS ↗</a>
+        <div class="coordinates">MILKY WAY · SOL SYSTEM · EARTH</div>
+      </div>
+
+      <div class="solar-scene" aria-label="Animated planet illustration">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="planet planet-main"></div>
+        <div class="planet planet-small"></div>
+        <div class="planet planet-blue"></div>
+      </div>
+
+      <div class="scroll-note">SCROLL TO EXPLORE ↓</div>
+    </section>
+
+    <section class="stats">
+      <div><strong>8</strong><span>PLANETS</span></div>
+      <div><strong>1</strong><span>HOME WORLD</span></div>
+      <div><strong>∞</strong><span>POSSIBILITIES</span></div>
+    </section>
+
+    <section class="planet-section" id="planets">
+      <div class="section-heading">
+        <p class="eyebrow">THE SOLAR SYSTEM</p>
+        <h2>CHOOSE YOUR <span>WORLD.</span></h2>
+        <p>Select a planet to reveal its cosmic profile.</p>
+      </div>
+
+      <div class="planet-grid" id="planet-grid"></div>
+
+      <article class="planet-details" id="planet-details">
+        <div class="detail-visual" id="detail-visual">
+          <div class="detail-planet mercury"></div>
+        </div>
+        <div class="detail-copy">
+          <p class="eyebrow" id="planet-number">PLANET 01</p>
+          <h3 id="detail-name">MERCURY</h3>
+          <p id="detail-description">
+            The smallest planet in our solar system, racing around the Sun.
+          </p>
+          <div class="detail-facts">
+            <div><span>TYPE</span><strong id="detail-type">Terrestrial</strong></div>
+            <div><span>YEAR</span><strong id="detail-year">88 Earth days</strong></div>
+            <div><span>MOONS</span><strong id="detail-moons">0</strong></div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="mission" id="mission">
+      <p class="eyebrow">MISSION CONTROL</p>
+      <h2>THE UNIVERSE IS<br><span>CALLING YOU.</span></h2>
+      <p>Keep exploring. Every world has a story.</p>
+      <button id="discover-btn" class="explore-btn">DISCOVER A RANDOM PLANET ↗</button>
+      <p id="mission-message" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer>
+    <a class="logo" href="#">COSMIC<span>EXPLORER</span></a>
+    <p>MADE FOR THE CURIOUS. INSPIRED BY THE UNIVERSE.</p>
+    <span>© 2026 COSMIC EXPLORER</span>
+  </footer>
+</body>
+</html>
